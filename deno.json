@@ -1,0 +1,22 @@
+{
+  "tasks": {
+    "example": "deno run -A example.ts --profile qwerty --region zxcvb"
+},
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 120,
+    "indentWidth": 2,
+    "semiColons": true,
+    "singleQuote": true,
+    "proseWrap": "preserve",
+    "include": [
+      "*.ts",
+      "lib/**/*.ts",
+      "lib/services/*.ts"
+    ],
+    "exclude": [
+      "src/testdata/",
+      "data/fixtures/**/*.ts"
+    ]
+  }
+}
