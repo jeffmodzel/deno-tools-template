@@ -1,7 +1,7 @@
 import { colors } from 'https://deno.land/x/cliffy@v1.0.0-rc.3/ansi/colors.ts';
 
 // explore italic and bright, bg/backgroun
-export const blue = colors.blue
+export const blue = colors.blue;
 export const boldBlue = colors.bold.blue;
 
 export const green = colors.green;

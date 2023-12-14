@@ -71,16 +71,12 @@ if (import.meta.main) {
   console.log(boldRed('bold red text'));
   console.log(yellow('yellow text'));
   console.log(boldYellow('bold yellow text'));
-
   console.log(white('white text'));
   console.log(boldWhite('bold white text'));
-
   console.log(gray('gray text'));
   console.log(boldGray('bold gray text'));
-
   console.log(cyan('cyan text'));
   console.log(boldCyan('bold cyan text'));
-
   console.log(magenta('magenta text'));
   console.log(boldMagenta('bold magenta text'));
 

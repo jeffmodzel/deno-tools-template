@@ -11,8 +11,7 @@
     "proseWrap": "preserve",
     "include": [
       "*.ts",
-      "lib/**/*.ts",
-      "lib/services/*.ts"
+      "./lib/"
     ],
     "exclude": [
       "src/testdata/",
